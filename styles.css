@@ -1,6 +1,6 @@
 :root {
     --almost-black: #1a1a1a;
-    --almost-white: #fafafa;
+    --almost-white: #f0eada;
     --hover-gray: #333333;
     --transition-speed: 0.3s;
 }
@@ -50,7 +50,6 @@ body {
 .logo {
     max-width: 100%;
     height: auto;
-    max-height: 80vh;
     width: auto;
     display: block;
     transition: opacity var(--transition-speed) ease;
@@ -79,5 +78,4 @@ body {
     font-size: 5rem;
     text-align: center;
     padding: 2rem;
-    line-height: 1.4;
 }
