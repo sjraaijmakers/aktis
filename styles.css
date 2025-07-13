@@ -25,7 +25,6 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    padding: 2rem;
 }
 
 .container {
@@ -63,7 +62,6 @@ body {
     display: inline-block;
     text-decoration: none;
     border-radius: 8px;
-    padding: 1rem;
 }
 
 .logo-link:hover {
@@ -77,5 +75,4 @@ body {
     justify-content: center;
     font-size: 5rem;
     text-align: center;
-    padding: 2rem;
 }
