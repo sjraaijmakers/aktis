@@ -13,7 +13,9 @@
 
 html, body {
     height: 100%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 body {
@@ -42,7 +44,7 @@ body {
 }
 
 .logo-wrapper:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .logo {
@@ -63,70 +65,19 @@ body {
     text-decoration: none;
     border-radius: 8px;
     padding: 1rem;
-    transition: background-color var(--transition-speed) ease;
 }
 
 .logo-link:hover {
-    background-color: var(--hover-gray);
+    color: var(--hover-gray);
 }
 
-.logo-link:focus {
-    outline: 2px solid var(--almost-white);
-    outline-offset: 4px;
-}
-
-/* Placeholder styling voor als er nog geen logo is */
 .logo-placeholder {
-    width: 200px;
-    height: 200px;
-    background-color: var(--almost-white);
-    border-radius: 8px;
+    color: var(--almost-white);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.2rem;
-    color: var(--almost-black);
+    font-size: 5rem;
     text-align: center;
     padding: 2rem;
     line-height: 1.4;
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-    body {
-        padding: 1rem;
-    }
-    
-    .logo-placeholder {
-        width: 150px;
-        height: 150px;
-        font-size: 1rem;
-        padding: 1.5rem;
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        padding: 0.5rem;
-    }
-    
-    .logo-placeholder {
-        width: 120px;
-        height: 120px;
-        font-size: 0.9rem;
-        padding: 1rem;
-    }
-}
-
-/* Voor als je een echte afbeelding gebruikt */
-@media (max-width: 768px) {
-    .logo {
-        max-height: 60vh;
-    }
-}
-
-@media (max-width: 480px) {
-    .logo {
-        max-height: 50vh;
-    }
 }
